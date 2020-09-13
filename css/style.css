@@ -13,10 +13,6 @@ a {
 .header{
     width: 100%;
     background-color: blue;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 44;
 }
 
 .header__wrapper-top{
@@ -97,7 +93,6 @@ a {
     padding-right: 5px;
 }
 .header__wrapper-bottom{
-    padding: 0px 24px;
     max-width: 1920px;
     min-width: 320px;
     margin: auto;
@@ -190,10 +185,6 @@ a {
     vertical-align: middle;
     display: inline-block;
     margin-right: 24px;
-}
-
-.firstPhones {
-    margin-right: 48px;
 }
 
 .phonesTb {
