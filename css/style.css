@@ -1,0 +1,238 @@
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+    
+.header{
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 44;
+}
+
+.header__wrapper-top{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display: flex;
+}
+
+.header__right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-top: 7px;
+}
+
+.header_list-item{
+    padding-right: 15px;
+}
+
+.header__menu{
+    text-decoration: none;
+    color: white;
+}
+
+.burger__icon{
+    background: url(../img/open-menu.png) no-repeat center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+
+.burger__menu-item{
+    list-style-type: none;
+}
+
+.burger__menu{
+    display: block;
+    position: absolute;
+    top: 73px;
+    background-color: tomato;
+}
+
+.header__regist{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.regist__link{
+    padding-right: 10px;
+}
+
+.contact__link{
+    padding-top: 5px;
+}
+
+.header__social{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+
+.img__icon{
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+.header__wrapper-bottom{
+    padding: 0px 24px;
+    max-width: 1920px;
+    min-width: 320px;
+    margin: auto;
+    clear: both;
+}
+
+.subTabel{
+    table-layout: fixed;
+    display: table;
+    width: 100%;
+}
+
+.subTableRow{
+    display: table-row;
+}
+
+.subTabelColumn{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.subTableColumn:first-child {
+    width: 230px;
+}
+
+.subTableColumn:nth-child(2) {
+    padding-right: 24px;
+}
+
+.subTableColumn:nth-child(3) {
+    text-align: right;
+    width: 520px;
+}
+.subTableColumn:last-child {
+    text-align: right;
+    width: 356px;
+}
+
+.logo{
+    line-height: 90px;
+    text-align: left;
+    height: 90px;
+    width: 212px;
+    border: 0;
+}
+
+.searchContainerInner {
+    border: 1px solid #f3f3f3;
+    height: 50px;
+}
+
+.searchContainer {
+    border-collapse: collapse;
+    table-layout: fixed;
+    line-height: 50px;
+    display: table;
+    height: 50px;
+    width: 100%;
+}
+
+.searchColumn {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.searchQuery {
+    background: url(/bitrix/components/dresscode/search.line/templates/version2/images/searchH2.png) 14px 50% no-repeat transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 42px;
+    height: 50px;
+    width: 100%;
+    border: 0;
+}
+
+.goSearch {
+    background: url(/bitrix/components/dresscode/search.line/templates/version2/images/searchIcoH2.png) 0 0 no-repeat transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: transparent;
+    cursor: pointer;
+    height: 50px;
+    border: none;
+    width: 50px;
+}
+
+#subHeader7 .phonesContainer {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.firstPhones {
+    margin-right: 48px;
+}
+
+.phonesTb {
+    table-layout: fixed;
+    display: table;
+}
+
+.callBackIcon {
+    background: url(../img/telephone.svg) 0 0 no-repeat transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    height: 28px;
+    width: 34px;
+}
+
+.phonesTc {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.phonesTc:first-child {
+    padding-right: 12px;
+}
+
+.heading {
+    font-family: "robotoBold";
+    font-size: 16px;
+    display: block;
+}
+
+.callBack {
+    text-decoration: none;
+    position: relative;
+}
+
+.container__wrapper{
+    padding-top: 200px;
+    max-width: 900px;
+    margin: 0 auto;
+}
