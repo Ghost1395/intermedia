@@ -7,8 +7,12 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    font-size: 30px;
 }
 
+h6 {
+    margin: 0 0 0 0;
+}
 a {
     text-decoration: none;
     color: white;
@@ -226,7 +230,7 @@ li{
 
 .heading {
     font-family: "robotoBold";
-    font-size: 16px;
+    font-size: 20px;
     display: block;
 }
 
@@ -264,7 +268,7 @@ li{
                 width:100%;
                 height:auto;
                 box-sizing:border-box;
-                font-size:13px;
+                font-size:17px;
                 text-transform:uppercase;
                 font-weight:bold;
                 color:#FBF7F7;
@@ -311,19 +315,33 @@ width: 100%;
 object-fit: cover;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 190px);
-    justify-content: space-between;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
+.new__title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-weight: 20px;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 15px;
+    border: 2px solid balck;
 }
-  
+
+.title__link{
+    text-decoration: none;
+    color: white;
+    background-color: #0A3CC1;
+}
+
+.title__link:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
 .item {
     height: 200px;
 
 }
-  
+.product{
+    margin-top: 10px;
+}  
 .card {
 width: 700px;
 }
@@ -370,7 +388,7 @@ width: 700px;
     border: none;
     cursor: pointer;
     padding:20px;
-    margin-top:20px;
+    margin-top:10px;
     width: 260px;
 }
 
@@ -386,6 +404,12 @@ width: 700px;
     display: none;
     min-width: 200px;
 }
+
+.dropdown-child-2 {
+    display: none;
+    min-width: 200px;
+}
+
 .dropdown-child a {
     color: black;
     padding: 20px;
@@ -440,3 +464,135 @@ width: 700px;
     font-size: 18px;
     font-weight: 500;
    }
+
+/*filter*/
+
+.filter__title{
+    padding-left: 30px;
+}
+
+.filter__btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pag{
+    display: flex;
+    justify-content: center;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  .pagination > li {
+    display: inline;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  .pagination > li:first-child > a,
+  .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .pagination > li:last-child > a,
+  .pagination > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .pagination > li > a:hover,
+  .pagination > li > span:hover,
+  .pagination > li > a:focus,
+  .pagination > li > span:focus {
+    color: #2a6496;
+    background-color: #eee;
+    border-color: #ddd;
+  }
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #428bca;
+    border-color: #428bca;
+  }
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+  }
+  .pagination-lg > li > a,
+  .pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px;
+  }
+  .pagination-lg > li:first-child > a,
+  .pagination-lg > li:first-child > span {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .pagination-lg > li:last-child > a,
+  .pagination-lg > li:last-child > span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pagination-sm > li > a,
+  .pagination-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .pagination-sm > li:first-child > a,
+  .pagination-sm > li:first-child > span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  .pagination-sm > li:last-child > a,
+  .pagination-sm > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+.sort{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.label{
+    padding-right: 7px;
+}
+
+.h6__title{
+    padding-top: 4px;
+    margin: 0 0 0 0;
+}
