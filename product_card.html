@@ -321,185 +321,68 @@
                         </ul>
                     </div>
                 </div>
-                
-                <div class="dropdown">
-                    <div class="button__wrapper">
-                        <button onclick="myFunction2()" class="mainmenubtn">Уточнить раздел</button>
-                    </div>
-                    <div id="myDropdown-2" class="dropdown-child">
-                        <ul class="menu">
-                            <li>
-                                <a href="#" class="">Ноутбуки и ультрабуки</a>
-                            </li>
-                            <li>
-                                <a href="#" class="">Сумки размером до 14</a>
-                            </li>
-                            <li>
-                                <a href="#" class="">Сумки размером до 16</a>
-                            </li>
-                            <li>
-                                <a href="#" class="">Рюкзаки для ноутбуков</a>  
-                            </li> 
-                        </ul>
-                    </div>
-                </div> 
-                
-                <div class="dropdown">
-                    <div class="button__wrapper">
-                        <button onclick="myFunction3()" class="mainmenubtn">Фильтр по параметрам</button>
-                    </div>
-                    <div id="myDropdown-3" class="dropdown-child">
-                        <div id="filters">
-                            <div class="">
-                                <h4 class="filter__title">Фильтр по ценам</h4>
-                                <div id="prices-label">
-                                    <p class="prices">5000 - 50000 сом.</p>
-                                </div>
-                                <br>
-                                <input type="hidden" id="min-price" name="min_price" value="5000">
-                                <input type="hidden" id="max-price" name="max_price" value="50000">
-                                <div id="prices"></div>
-                            </div>
-                            <form id="filters-form" role="form">
-                                <div class="">
-                                    <h4 class="filter__title">Производитель</h4>
-                                    <div id="brands">
-                                        <div class="checkbox"><label><input type="checkbox" name="brands[]" value="1">Sumsung</label></div>
-                                        <div class="checkbox"><label><input type="checkbox" name="brands[]" value="2">HP</label></div>
-                                        <div class="checkbox"><label><input type="checkbox" name="brands[]" value="3">LG</label></div>
-                                        <div class="checkbox"><label><input type="checkbox" name="brands[]" value="4">ACER</label></div>
-                                        <div class="checkbox"><label><input type="checkbox" name="brands[]" value="4">Lenovo</label></div>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="filter__btn row">
-                                <button onclick="" class="mainmenubtn col-md-6">Показать</button>
-                                <button onclick="" class="mainmenubtn col-md-6">Сбросить</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="nav__product-card">
+                    <ul class="nav__list">
+                        <li class="nav__list-items">
+                            <a href="product_page.html" class="nav__list-link">Вернуться в раздел</a>
+                        </li>
+                        <li class="nav__list-items">
+                            <a href="#" class="nav__list-link">Обзор товаров</a>
+                        </li>
+                        <li class="nav__list-items">
+                            <a href="#" class="nav__list-link">Характеристики</a>
+                        </li>
+                        <li class="nav__list-items">
+                            <a href="#" class="nav__list-link">Похожие товары</a>
+                        </li>
+                    </ul>
                 </div>
-                
             </nav>
-            <main class="col-md-9">
 
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12 products">
-                            <div class="sort">
-                                <div class="column">
-                                    
-                                        <h6 class="h6__title">Сортировать по:</h6>
-                                    
-                                
-                                        <select name="sortFields" id="selectSortParams">
-                                            <option value="/catalog/noutbuki-i-aksessuary/index.php?SORT_FIELD=PRICE_ASC">увеличению цены</option>
-                                            <option value="/catalog/noutbuki-i-aksessuary/index.php?SORT_FIELD=PRICE_DESC">уменьшению цены</option>
-                                            <option value="/catalog/noutbuki-i-aksessuary/index.php?SORT_FIELD=ID">популярности</option>
-                                            <option value="/catalog/noutbuki-i-aksessuary/index.php?SORT_FIELD=NAME">алфавиту</option>
-                                        </select>
-                                    
-                                </div>
-                                <div class="column">
-                                    <div class="label">
-                                        <h6 class="h6__title">Показать по:</h6>				
-                                    </div>
-                                    <select name="countElements" id="selectCountElements">
-                                        <option value="/catalog/noutbuki-i-aksessuary/index.php?SORT_TO=30">30</option>
-                                        <option value="/catalog/noutbuki-i-aksessuary/index.php?SORT_TO=60">60</option>
-                                        <option value="/catalog/noutbuki-i-aksessuary/index.php?SORT_TO=90">90</option>
-                                    </select>
-                                </div>
+            <main class="col-md-9">
+                <div class="product__card-title">
+                    <h3 class="product__card-desc">
+                        Ноутбук Asus X540UB-DM538 15.6"FHD i3-7020U 2.3GHz,4GB,SSD 120GB,MX110 2GB CR,WF,USB3.0,BLACK,RUS в Бишкеке по лучшим ценам
+                    </h3>
+                </div>
+                <div class="product__card">
+                    <div class="product__card-pic">
+                        <img class="product__card-pic" src="img/8b5f7b7546530ae06e90e9bf3ac13180.jpg" alt="ноут">
+                    </div>
+                    <div class="product__card-about">
+                        <div class="card__about-top">
+                            <div class="top__ferst">
+                                <p>Характеристики</p>
+                                <a href="#">Все характеристики</a>
                             </div>
-                            <div class="pag">
-                                <ul class="pagination">
-                                    <li><a href="#">«</a></li>
-                                    <li class="active"><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">5</a></li>
-                                    <li><a href="#">»</a></li>
-                                  </ul>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="product">
-                                        <div class="product-img">
-                                             <a href="product_card.html"><img src="img/b9c024db2b5d54b8a699564573d1762a.jpg" alt=""></a>
-                                        </div>
-                                        <p class="product-title">
-                                             <a href="#">Клавиатура</a>
-                                        </p>
-                                        <p class="product-desc">Клавиатура Asus [Centr Up 2Bolts Square]</p>
-                                        <p class="product-price">Цена: 1200 сом/шт</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="product">
-                                        <div class="product-img">
-                                             <a href="product_card.html"><img src="img/982dc0de551fb2f7b76699d53f6e4705.jpg" alt=""></a>
-                                        </div>
-                                        <p class="product-title">
-                                             <a href="#">Ноутбук</a>
-                                        </p>
-                                        <p class="product-desc">Acer Swift 3 SF314-54 Silver Intel Core i7-8550</p>
-                                        <p class="product-price">Цена: 89920 сом/шт</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="product">
-                                        <div class="product-img">
-                                             <a href="product_card.html"><img src="img/8ad6ea3c7c42a1b7defb8c38d3738640.jpg" alt=""></a>
-                                        </div>
-                                        <p class="product-title">
-                                             <a href="#">Ноутбук</a>
-                                        </p>
-                                        <p class="product-desc">Asus X540UB-DM538 15.6"FHD i3-7020U 2.3GHz,</p>
-                                        <p class="product-price">Цена: 43640 сом/шт</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="product">
-                                        <div class="product-img">
-                                             <a href="#"><img src="img/f64fe93e739cb660e1ff127468b03648.jpg" alt=""></a>
-                                        </div>
-                                        <p class="product-title">
-                                             <a href="#">Сумка</a>
-                                        </p>
-                                        <p class="product-desc">Sumdex PON-348 Impulse 10,2</p>
-                                        <p class="product-price">Цена: 1400 сом/шт</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="product">
-                                        <div class="product-img">
-                                             <a href="#"><img src="img/85bd159475684daf3ec85943b8442cee.jpg" alt=""></a>
-                                        </div>
-                                        <p class="product-title">
-                                             <a href="#">Ноутбук</a>
-                                        </p>
-                                        <p class="product-desc">Ноутбук HP Probook 450 G7 Intel Core i3-10110U</p>
-                                        <p class="product-price">Цена: 56960 сом/шт</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="product">
-                                        <div class="product-img">
-                                             <a href="#"><img src="img/38485f189369e56b04f979d51a77a433.jpg" alt=""></a>
-                                        </div>
-                                        <p class="product-title">
-                                             <a href="#">Ноутбук</a>
-                                        </p>
-                                        <p class="product-desc">Ноутбук HP Probook 455R G6 Ryzen 5 3500Uм</p>
-                                        <p class="product-price">Цена:  61200 сом/шт</p>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="card__about-bottom">
+                            <p>Гарантия.......................12мес</p>
+                            <p>Производитель..........ASUS</p>
                         </div>
                     </div>
                 </div>
-           
+                <div class="specifications">
+                    <h3 class="specifications__title">
+                        Характеристики:
+                    </h3>
+                    <div class="row row__top">
+                        <div class="col-md-4">
+                            <p>Гарантия</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>12 месяцев</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>Производитель</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>ASUS</p>
+                        </div>
+                    </div>
+                </div>
             </main>
     
     <footer class="container">
